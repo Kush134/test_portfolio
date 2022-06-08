@@ -1,0 +1,58 @@
+[
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "404.json",
+        "path": "/404/"
+    },
+    {
+        "componentChunkName": "component---src-pages-home-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "home.json",
+        "path": "/home/"
+    },
+    {
+        "componentChunkName": "component---src-pages-index-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "index.json",
+        "path": "/"
+    },
+    {
+        "componentChunkName": "component---src-pages-work-1-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "work-1.json",
+        "path": "/work1/"
+    },
+    {
+        "componentChunkName": "component---src-pages-work-2-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "work-2.json",
+        "path": "/work2/"
+    },
+    {
+        "componentChunkName": "component---src-pages-work-3-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "work-3.json",
+        "path": "/work3/"
+    },
+    {
+        "componentChunkName": "component---src-pages-work-4-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "work-4.json",
+        "path": "/work4/"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "404-html.json",
+        "path": "/404.html"
+    }
+]

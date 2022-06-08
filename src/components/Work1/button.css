@@ -1,0 +1,69 @@
+.HideContent {
+  display: none;
+}
+.ShowContent {
+  display: block;
+  transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.HideButton {
+  display: none;
+}
+.ShowButton {
+  display: block;
+}
+
+.ButtonDis {
+  margin: 0 auto 3rem auto;
+  text-align: center;
+}
+.ButtonDis button {
+  color: rgba(239, 128, 65, 1);
+  padding: 6px 8px;
+  font-size: 20px;
+  border-color: rgba(239, 128, 65, 1);
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+
+  background-image: -webkit-linear-gradient(
+    30deg,
+    transparent 50%,
+    #ef8041 50%
+  );
+  background-image: linear-gradient(30deg, transparent 50%, #ef8041 50%);
+  background-size: 220%;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.ButtonDis button:hover {
+  background-position: 100%;
+  color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  border: none;
+}
+.ButtonDis p {
+  margin: 0 auto 0 auto;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1300px) {
+  .ButtonDis p {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 800px) {
+  .ButtonDis {
+    margin: 0 auto 1rem auto;
+  }
+  .ButtonDis p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 450px) {
+  .ButtonDis p {
+    font-weight: 0;
+  }
+}

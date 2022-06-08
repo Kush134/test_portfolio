@@ -1,0 +1,912 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "path": "/dev-404-page/",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/worning77/Desktop/my-portfolio/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/worning77/Desktop/my-portfolio/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6ce02b07c499b9f41f4280f54220e09b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/worning77/Desktop/my-portfolio/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/worning77/Desktop/my-portfolio/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f7c8cfa1e6d2f61a897b13798c137d53",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/worning77/Desktop/my-portfolio/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/worning77/Desktop/my-portfolio/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "78a918d9bbb84b86af885d1b88d892c5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/worning77/Desktop/my-portfolio/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/worning77/Desktop/my-portfolio/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "19f7d78c31c72557e0b23d01c705a41d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/worning77/Desktop/my-portfolio/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/worning77/Desktop/my-portfolio/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e356df7f0a636ccdb030cdf74daced28",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/worning77/Desktop/my-portfolio/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/worning77/Desktop/my-portfolio/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "dd939b95b34afdf1b57d4cb203bcdcf9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-styled-components": {
+      "resolve": "/Users/worning77/Desktop/my-portfolio/node_modules/gatsby-plugin-styled-components",
+      "id": "Plugin gatsby-plugin-styled-components",
+      "name": "gatsby-plugin-styled-components",
+      "version": "2.0.7",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "replaceRenderer"
+      ],
+      "pluginFilepath": "/Users/worning77/Desktop/my-portfolio/node_modules/gatsby-plugin-styled-components",
+      "packageJson": {
+        "name": "gatsby-plugin-styled-components",
+        "description": "Gatsby plugin to add support for styled components",
+        "version": "2.0.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "styled-components"
+        ],
+        "author": {
+          "name": "Guten Ye",
+          "email": "ywzhaifei@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "styled-components",
+            "version": ">= 2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "12bdde1e62f2ca2375ce13d29bbf76ee",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-google-analytics": {
+      "resolve": "/Users/worning77/Desktop/my-portfolio/node_modules/gatsby-plugin-google-analytics",
+      "id": "Plugin gatsby-plugin-google-analytics",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "1.0.20-12",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": "UA-130561639-1",
+        "head": false
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/worning77/Desktop/my-portfolio/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "1.0.20-12",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "7.0.0-beta.47"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "7.0.0-beta.47"
+          },
+          {
+            "name": "@babel/core",
+            "version": "7.0.0-beta.47"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">1.0.0 || >2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "24400d75e981d52d2eea063f9cfdc9d7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/worning77/Desktop/my-portfolio",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "05c77f203db89945dc4e4671e2403fec",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/worning77/Desktop/my-portfolio",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "Gatsby default starter",
+        "version": "1.0.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@fortawesome/fontawesome-svg-core",
+            "version": "^1.2.4"
+          },
+          {
+            "name": "@fortawesome/free-brands-svg-icons",
+            "version": "^5.3.1"
+          },
+          {
+            "name": "@fortawesome/free-regular-svg-icons",
+            "version": "^5.3.1"
+          },
+          {
+            "name": "@fortawesome/free-solid-svg-icons",
+            "version": "^5.3.1"
+          },
+          {
+            "name": "@fortawesome/pro-light-svg-icons",
+            "version": "^5.3.1"
+          },
+          {
+            "name": "@fortawesome/pro-regular-svg-icons",
+            "version": "^5.3.1"
+          },
+          {
+            "name": "@fortawesome/pro-solid-svg-icons",
+            "version": "^5.3.1"
+          },
+          {
+            "name": "@fortawesome/react-fontawesome",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "animate.css",
+            "version": "^3.7.0"
+          },
+          {
+            "name": "aos",
+            "version": "^3.0.0-beta.5"
+          },
+          {
+            "name": "babel-plugin-styled-components",
+            "version": "^1.9.2"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.9.277"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.22"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.46"
+          },
+          {
+            "name": "gatsby-plugin-favicon",
+            "version": "^3.1.4"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^1.0.20-12"
+          },
+          {
+            "name": "gatsby-plugin-nprogress",
+            "version": "^2.0.6"
+          },
+          {
+            "name": "gatsby-plugin-page-load-delay",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-plugin-styled-components",
+            "version": "^2.0.7"
+          },
+          {
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "^2.0.6"
+          },
+          {
+            "name": "i",
+            "version": "^0.3.6"
+          },
+          {
+            "name": "install",
+            "version": "^0.12.1"
+          },
+          {
+            "name": "npm",
+            "version": "^6.4.1"
+          },
+          {
+            "name": "react-animate-on-scroll",
+            "version": "^2.1.5"
+          },
+          {
+            "name": "react-atv-img",
+            "version": "^0.1.1"
+          },
+          {
+            "name": "react-back-to-top-button",
+            "version": "0.0.14"
+          },
+          {
+            "name": "react-emotion",
+            "version": "^9.2.10"
+          },
+          {
+            "name": "react-headroom",
+            "version": "^2.2.4"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-iframe",
+            "version": "^1.3.3"
+          },
+          {
+            "name": "react-image-parallax2",
+            "version": "^0.1.6"
+          },
+          {
+            "name": "react-loading-screen",
+            "version": "0.0.17"
+          },
+          {
+            "name": "react-motion",
+            "version": "^0.5.2"
+          },
+          {
+            "name": "react-reveal",
+            "version": "^1.2.2"
+          },
+          {
+            "name": "react-router-hash-link",
+            "version": "^1.2.1"
+          },
+          {
+            "name": "react-slider-light",
+            "version": "^4.2.0"
+          },
+          {
+            "name": "react-smooth-scroll",
+            "version": "^0.1.0"
+          },
+          {
+            "name": "react-spark-scroll",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "react-spark-scroll-gsap",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "react-spark-scroll-rekapi",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "react-toggle-display",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "react-waypoint",
+            "version": "^8.0.3"
+          },
+          {
+            "name": "really-smooth-scroll",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "styled-components",
+            "version": "^3.3.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@fortawesome/fontawesome-pro",
+            "version": "^5.3.1"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.13.7"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "84bb7e508fb199f4a4b77fd5cc8d9863",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-page-creator": {
+      "resolve": "/Users/worning77/Desktop/my-portfolio/node_modules/gatsby-plugin-page-creator",
+      "id": "Plugin gatsby-plugin-page-creator",
+      "name": "gatsby-plugin-page-creator",
+      "version": "1.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/worning77/Desktop/my-portfolio/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/worning77/Desktop/my-portfolio/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "1.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "120fcb0293c84acb19d102b7d8413df6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Gao's | Design"
+      },
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2020-02-01T03:51:35.603Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b9d28b73ce652d23f2fd19f9953e887d",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/worning77/Desktop/my-portfolio/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/worning77/Desktop/my-portfolio/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5422843cbc3b8b0e114bd931ff66e58e",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /home/": {
+      "layout": "index",
+      "jsonName": "home.json",
+      "internalComponentName": "ComponentHome",
+      "path": "/home/",
+      "component": "/Users/worning77/Desktop/my-portfolio/src/pages/home.js",
+      "componentChunkName": "component---src-pages-home-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/worning77/Desktop/my-portfolio/src/pages/home.js",
+      "id": "SitePage /home/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "95f482eb9d3db9485b7e351af50762b1",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/worning77/Desktop/my-portfolio/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/worning77/Desktop/my-portfolio/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f6df8fa10bea9dd17c61143d0393c597",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /work1/": {
+      "layout": "index",
+      "jsonName": "work-1.json",
+      "internalComponentName": "ComponentWork1",
+      "path": "/work1/",
+      "component": "/Users/worning77/Desktop/my-portfolio/src/pages/work1.js",
+      "componentChunkName": "component---src-pages-work-1-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/worning77/Desktop/my-portfolio/src/pages/work1.js",
+      "id": "SitePage /work1/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "03e69cd6f8466091dd935137b2aa0961",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /work2/": {
+      "layout": "index",
+      "jsonName": "work-2.json",
+      "internalComponentName": "ComponentWork2",
+      "path": "/work2/",
+      "component": "/Users/worning77/Desktop/my-portfolio/src/pages/work2.js",
+      "componentChunkName": "component---src-pages-work-2-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/worning77/Desktop/my-portfolio/src/pages/work2.js",
+      "id": "SitePage /work2/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c5986061af2217ac4d79a762ce944e97",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /work3/": {
+      "layout": "index",
+      "jsonName": "work-3.json",
+      "internalComponentName": "ComponentWork3",
+      "path": "/work3/",
+      "component": "/Users/worning77/Desktop/my-portfolio/src/pages/work3.js",
+      "componentChunkName": "component---src-pages-work-3-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/worning77/Desktop/my-portfolio/src/pages/work3.js",
+      "id": "SitePage /work3/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2f1212398362e57b198b3a2a12ea695d",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /work4/": {
+      "layout": "index",
+      "jsonName": "work-4.json",
+      "internalComponentName": "ComponentWork4",
+      "path": "/work4/",
+      "component": "/Users/worning77/Desktop/my-portfolio/src/pages/work4.js",
+      "componentChunkName": "component---src-pages-work-4-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/worning77/Desktop/my-portfolio/src/pages/work4.js",
+      "id": "SitePage /work4/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5f3ce9701d8d978310770c7f462c4229",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/worning77/Desktop/my-portfolio/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/worning77/Desktop/my-portfolio/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "812221198aae17c94a9853729cd37c77",
+        "description": "Plugin prod-404",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "49537d6bfc5e6a58877d189095a1e066"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "LAYOUT___index"
+      ]
+    },
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
+  }
+}

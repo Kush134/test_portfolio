@@ -1,0 +1,118 @@
+.Header {
+  position: fixed;
+  width: 100%;
+  padding: 50px 0;
+  z-index: 100;
+  transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+  left: 0;
+}
+
+.HeaderScrolled {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15);
+  padding: 6px 0;
+  backdrop-filter: blur(20px);
+}
+.HeaderCont {
+  margin: 0 2rem;
+}
+.HeaderGroup {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  margin-left: 0;
+  justify-self: start;
+  position: relative;
+  height: 60px;
+  transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.LogoScrolled {
+  margin-left: 0;
+  justify-self: start;
+  position: relative;
+  height: 30px;
+}
+.logo img {
+  position: absolute;
+  height: 100%;
+}
+.LogoScrolled img {
+  position: absolute;
+  height: 100%;
+}
+.work {
+  margin: auto 5% auto auto;
+}
+.home {
+  margin-right: 0;
+}
+.Header button {
+  padding: 6px 8px;
+  font-size: 20px;
+  background: rgba(255, 255, 255, 0);
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+  transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.work button:hover {
+  background: rgb(0, 206, 172);
+  color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
+}
+.home button:hover {
+  background: rgb(236, 89, 81);
+  color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
+}
+
+@media (max-width: 640px) {
+  .Header {
+    padding: 15px 0;
+  }
+  .HeaderScrolled {
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    padding: 4px 0;
+  }
+  .Header button {
+    font-weight: 500;
+    font-size: 18px;
+    padding: 3px 8px;
+  }
+  .Header button:hover {
+    transform: translateY(-1px);
+  }
+  .HeaderCont {
+    margin: 0 1rem;
+  }
+  .HeaderGroup {
+    grid-template-columns: repeat(4, auto);
+  }
+  .logo {
+    height: 40px;
+  }
+  .logoscrolled {
+    height: 25px;
+  }
+}
+@media (max-width: 415px) {
+  .Header button {
+    font-size: 16px;
+  }
+  .logo {
+    height: 30px;
+  }
+  .logoscrolled {
+    height: 18px;
+  }
+}
